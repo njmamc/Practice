@@ -21,14 +21,9 @@
 
 function longestSubstringWithoutRepeatingCharacters(array){
 let emptyarray = [];
-let checkarray = array.length;
+for(i=0; i<array.length; i++){
 
-for(i=0; i<checkarray; i++){
-    for(j=1; j<checkarray; j++){
-    if(array[i] !== array[j]){
-        emptyarray.push(array[j]);
-            }
-        }
-    }
 }
-console.log(longestSubstringWithoutRepeatingCharacters([a,b,c,a,b,c,a,b,c]));
+
+}
+longestSubstringWithoutRepeatingCharacters(abcabcbb);
