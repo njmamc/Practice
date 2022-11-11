@@ -1,0 +1,147 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.container-fluid{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+}
+
+.svg_search{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+
+.d-flex{
+    align-items: center;
+   padding-right: 20px;
+}
+.signin_button{
+    background-color: #0070cc !important;
+    color: white !important;
+    border-radius: 30px !important;
+    border: none !important;
+    height: 30px;
+    width:80px;
+    margin-right: 30px;
+    font-size:15px!important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items:center  ;
+}
+
+.search_svg{
+width: 20px;
+height: 25px;
+}
+
+.playstation_logo{
+width: 40px;
+height: 35px;
+margin-left: 20px;
+}
+
+.main_image1{
+    width: 100%;
+    
+}
+
+.text_button{
+    position: absolute;
+    top: 54%;
+    left: 65px;
+    color: rgb(10, 10, 10);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.description_img{
+width: 56%;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.btn-secondary{
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 15%;
+    height: 15%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo_mainImg{
+   width: 35%;
+   position: absolute;
+   top: 33%;
+   left: 60px;     
+}
+
+.dropdown-toggle{
+    color: black;
+}
+
+.bg-light{
+    margin: 0px;
+}
+
+.singin_button_margin{
+    margin: 0px;
+}
+
+.makelikeCarasoul{
+    display: flex;
+    padding: 35px;
+    padding-left: 60px;
+}
+
+.imgOfcarasaoul{
+    box-shadow: 1px 1px 5px 0.5px rgb(173, 173, 173);
+
+    width: 16.3%;
+    padding: 3px;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.imgOfcarasaoul:hover{
+    margin: 5px;
+    position: relative;
+}
+
+.scroll1_playstaion_button{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.image_playstation{
+    width: 55%;
+    margin-right: 70px;
+}
+.scroll1_playstaion{
+    display:flex;
+}
+
+.playstation_textAndButton{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 100px;
+}
