@@ -125,9 +125,10 @@ margin-bottom: 30px;
 }
 
 .scroll1_playstaion_button{
-    background-color: blue;
+    background-color: rgb(1, 96, 174);
     color: white;
     border-radius: 30px;
+    border: none;
     width: 150px;
     height: 50px;
 }
@@ -144,4 +145,12 @@ margin-bottom: 30px;
     margin-top: 150px;
     margin-bottom: 50px;
     padding: 100px;
+}
+
+.h6marginKELIYE{
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: x-large;
+    font-weight: normal;
 }
