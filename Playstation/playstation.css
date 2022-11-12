@@ -60,7 +60,7 @@ margin-left: 20px;
 
 .text_button{
     position: absolute;
-    top: 54%;
+    top: 48%;
     left: 65px;
     color: rgb(10, 10, 10);
     color: white;
@@ -85,17 +85,45 @@ margin-bottom: 30px;
     text-align: center;
 }
 
+.random{
+    box-shadow: inset 150px 5px 500px black;
+    min-height: 500px;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-hero-banner-desktop-02-en-07sep21?$2400px$");
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow{
+    box-shadow: 200px 10px 50px black;
+    z-index: 999;
+}
+
 .logo_mainImg{
-   width: 35%;
+ 
+   width: 30%;
    position: absolute;
-   top: 33%;
+   top: 28%;
    left: 60px;     
+}
+
+.main_image1{
+    z-index: -1;
 }
 
 .dropdown-toggle{
     color: black;
 }
 
+body{
+    margin-top: 80px;
+}
+.nav_bar{
+
+    position: fixed;
+    top: 28px;
+    z-index: 999;
+    width: 100%;
+}
 .bg-light{
     margin: 0px;
 }
@@ -120,7 +148,7 @@ margin-bottom: 30px;
     margin-right: 5px;
 }
 .imgOfcarasaoul:hover{
-    margin: 5px;
+    bottom: 5px;
     position: relative;
 }
 
@@ -134,6 +162,8 @@ margin-bottom: 30px;
 }
 
 .image_playstation{
+    
+
     width: 55%;
     margin-right: 70px;
 }
@@ -153,4 +183,17 @@ margin-bottom: 30px;
     margin-bottom: 41px;
     font-size: x-large;
     font-weight: normal;
+}
+
+.header_withSonyLogo{
+    position: absolute;
+    top: 0;
+}
+
+
+.navbar-collapse{
+    border: none;
+    height: 10px;
+    margin: 0px !important;
+    padding: 0px !important;
 }

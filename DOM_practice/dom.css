@@ -1,0 +1,32 @@
+.InputFromUser_container{
+    padding: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.list_container{
+    padding: 50px;
+}
+
+.inputTextboxAndButton{
+    display: flex;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.inputBox{
+    width: 50%;
+    margin-right: 50px;
+}
+
+hr{
+    width: 55%;
+}
+
+.submitBtn{
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgb(180, 180, 180);
+    border: none;
+    color: rgb(255, 255, 255);
+}

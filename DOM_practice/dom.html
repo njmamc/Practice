@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- CSS only Bootstrap Link from site-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="dom.css">
+     <script src="dom.js"></script>
+
+    <title>DOM Practice</title>
+</head>
+<body>
+
+    <div class="InputFromUser_container">
+        <form action="" onsubmit="handleEventInDOMform(); return false;">
+        <h5>ADD ITEM</h5>
+            <hr>
+            <div class="inputTextboxAndButton">
+        <input id="inputTextBox_FromUser" type="text" class="form-control inputBox" placeholder="Type Anything">
+        <button type="submit" class="btn btn-primary submitBtn"> Add </button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="list_container">
+        <h5>TODO</h5>
+        <hr>
+        <ul id="ulForAddingLI">
+
+            <!-- innerHTML = content between opening and closing tag -->
+            <!-- list add krni hai -->
+
+            <!-- example ke liye is trah se ... jb button ko clik kre to .. aise add hoga data -->
+
+            <!-- <li>
+                <label for=""> kuchbhi   </label>
+                <button>Edit</button>
+                <button>Delete</button>
+            </li> -->
+
+
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
