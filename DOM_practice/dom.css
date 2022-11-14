@@ -23,6 +23,11 @@ hr{
     width: 55%;
 }
 
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
 .submitBtn{
     border-radius: 20px;
     width: 100px;
