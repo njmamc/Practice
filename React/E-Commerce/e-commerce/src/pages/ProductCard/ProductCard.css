@@ -1,0 +1,16 @@
+
+.card{
+    width: 14%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.cardimg{
+    width: 8px;
+    height: 220px;
+    padding: 20px
+}
+
+.price{
+    font-weight: bold;
+}

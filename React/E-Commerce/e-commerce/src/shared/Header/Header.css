@@ -1,0 +1,26 @@
+.name{
+    color: blue;
+}
+
+.shopLOgo{
+    color: blue;
+    justify-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.siteName{
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: blue; 
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.signinupbutton{
+
+    margin-left: 10px;
+    justify-content: right;
+}
