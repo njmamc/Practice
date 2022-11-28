@@ -4,13 +4,22 @@ import Header from '../shared/Header/Header'
 import Register from './Register/Register';
 
 function Home() {
+
+    fetch("product.json")
+        .then((res) => res.json())  // calling the json function
+        .then((res) => {              //listening the json function
+            console.log(res);
+        });
+
+
+
     return (
 
         <div>
-            {/* <Header/>
+            <Header />
             Home page
-            <ProductCard/> */}
-            <Register />
+            <ProductCard />
+            {/* <Register /> */}
         </div>
 
     );
