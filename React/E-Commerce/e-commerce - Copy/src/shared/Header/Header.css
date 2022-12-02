@@ -24,13 +24,3 @@
     margin-left: 10px;
     justify-content: right;
 }
-
-.header_1{
-    display: flex ;
-    justify-content: space-between !important;
-}
-
-.random{
-    width: 100%;
-
-}

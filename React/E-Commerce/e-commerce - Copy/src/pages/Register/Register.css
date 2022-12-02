@@ -1,0 +1,8 @@
+.mainForm {
+    padding: 20px;
+    width: 40%;
+    border: 1px solid lightgray;
+    margin-left: 25% !important;
+    margin-top: 2% !important;
+    background-color: rgba(32, 173, 178, 0.297);
+}
